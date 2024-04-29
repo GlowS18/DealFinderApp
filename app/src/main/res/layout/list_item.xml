@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#424242"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/post_text_textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toStartOf="@+id/delete_imageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/post_desc_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_text_textView" />
+
+    <ImageView
+        android:id="@+id/delete_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_restore_from_trash_24" />
+
+    <ImageView
+        android:id="@+id/follow_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/post_text_textView"
+        app:layout_constraintEnd_toEndOf="@+id/delete_imageView"
+        app:layout_constraintStart_toStartOf="@+id/delete_imageView"
+        app:layout_constraintTop_toBottomOf="@+id/delete_imageView"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/baseline_star_outline_24" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "53659521009",
+    "project_id": "kys123-85db0",
+    "storage_bucket": "kys123-85db0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53659521009:android:8b69aa4e40be941106fe50",
+        "android_client_info": {
+          "package_name": "com.example.dealfinder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoqqiLBo3Fy_M-cC3g6CKNcb62suYZX3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
